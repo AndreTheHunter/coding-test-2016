@@ -38,7 +38,7 @@ describe('setColour', function () {
 	it('should change the colour light to yellow 30 secods before it turns red (from green)', function () {
 		var time = minutes(4.5)
 
-		expect(setColour(green, time).colour).to.equal('yelllow')
+		expect(setColour(green, time).colour).to.equal('yellow')
 		expect(setColour(red, time).colour).to.equal('red')
 	})
 })
