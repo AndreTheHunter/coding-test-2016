@@ -1,3 +1,8 @@
+Before running, do a `npm install`
+```
+npm i
+```
+
 To run:
 ```
 node app
@@ -20,4 +25,4 @@ npm run watch
 
 My assumption is that at minute 0, the North and South lights are red.
 
-I intentionally did not use any libraries.
+I intentionally did not use any libraries (except for testing).
