@@ -1,0 +1,25 @@
+{
+  "name": "coding-test-2016",
+  "version": "1.0.0",
+  "description": "Safety Culture coding test for 2016",
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha --reporter min --watch",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreTheHunter/coding-test-2016.git"
+  },
+  "author": "André de Jager",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreTheHunter/coding-test-2016/issues"
+  },
+  "homepage": "https://github.com/AndreTheHunter/coding-test-2016#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {}
+}
